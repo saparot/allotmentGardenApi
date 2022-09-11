@@ -1,0 +1,29 @@
+body {
+    background-color: #2d3748;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    background-color: mediumpurple;
+    color: white;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+
+.navigation__item {
+    padding: 4px;
+    border: 1px solid rebeccapurple;
+    margin: 0 16px;
+}
+
+.navigation__item--active {
+    background: rebeccapurple;
+
+}
+
+.content {
+    margin: 0 16px;
+}
