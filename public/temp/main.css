@@ -1,4 +1,6 @@
 body {
+    font-family: IBMPlexMono, monospace;
+    font-size: 1rem;
     background-color: #2d3748;
     color: white;
 }
@@ -26,4 +28,12 @@ body {
 
 .content {
     margin: 0 16px;
+}
+
+button {
+    background-color: deeppink;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
