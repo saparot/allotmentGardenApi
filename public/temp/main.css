@@ -2,13 +2,13 @@ body {
     font-family: IBMPlexMono, monospace;
     font-size: 1rem;
     background-color: #2d3748;
-    color: white;
+    color: #a0aec0;
 }
 
 .navigation {
     display: flex;
     background-color: mediumpurple;
-    color: white;
+    color: #a0aec0;
     justify-content: flex-start;
     flex-direction: row;
     padding: 0 16px;
@@ -26,8 +26,25 @@ body {
 
 }
 
+
+.form {
+}
+
 .content {
     margin: 0 16px;
+}
+
+.form__save {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+input, select, textarea {
+    width: 100%;
+    border: 1px solid deeppink;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 button {
